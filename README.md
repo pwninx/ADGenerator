@@ -6,3 +6,5 @@ In order to generate a functional domain controller and active directory, the li
 ```. .\Invoke-ForestDeploy.ps1```
 
 ```Invoke-ForestDeploy -DomainName <domain name>```
+
+This will create you an AD domain controller. From here, you can run any other scripts but, remember your DC name.
